@@ -3,7 +3,7 @@ import re
 import pandas as pd
 
 PDF_PATH = "SIAC_CLA_Caderno_Resumo.pdf"   # coloque o PDF na mesma pasta do script
-OUTPUT_CSV = "siac_trabalhos.csv"
+OUTPUT_CSV = "siac_cla_trabalhos.csv"
 
 # Regex para captura dos campos
 REG_AREA = r"ÁREA PRINCIPAL:\s*(.+)"
